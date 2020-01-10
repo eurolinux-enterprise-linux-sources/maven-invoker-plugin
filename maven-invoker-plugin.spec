@@ -1,6 +1,6 @@
 Name:           maven-invoker-plugin
 Version:        1.8
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Maven Invoker Plugin
 
 Group:          Development/Libraries
@@ -60,6 +60,9 @@ API documentation for %{name}.
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.8-8
+- Mass rebuild 2013-12-27
+
 * Mon Aug 26 2013 Michal Srb <msrb@redhat.com> - 1.8-7
 - Migrate away from mvn-rpmbuild (Resolves: #997508)
 
